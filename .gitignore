@@ -1,0 +1,6 @@
+# Logs are generated at runtime
+*.log
+# Local backups
+backup/
+# Secrets and local environment settings
+.env
