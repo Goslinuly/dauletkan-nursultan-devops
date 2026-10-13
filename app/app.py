@@ -4,7 +4,7 @@ import signal
 import sys
 from http.server import BaseHTTPRequestHandler, HTTPServer
 
-APP_VERSION = "1.0"
+APP_VERSION = "1.1"
 PORT = int(os.getenv("PORT", "5000"))
 
 # Values come from environment variables; defaults are used if they are not set
