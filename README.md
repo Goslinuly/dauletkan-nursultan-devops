@@ -28,3 +28,4 @@ docker build -t dauletkan-nursultan-devops .
 docker run -d --name dauletkan-nursultan-container -p 5050:5000 dauletkan-nursultan-devops
 curl localhost:5050
 ```
+Repository: https://github.com/Goslinuly/dauletkan-nursultan-devops
