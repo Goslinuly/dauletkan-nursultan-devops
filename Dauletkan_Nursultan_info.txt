@@ -1,0 +1,5 @@
+Name: Nursultan
+Surname: Dauletkan
+Group: IT2-2313
+Student ID: 37037
+Course: DevOps
