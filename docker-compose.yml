@@ -1,0 +1,13 @@
+services:
+  app:
+    build: .
+    image: dauletkan-nursultan-devops
+    container_name: dauletkan-nursultan-compose
+    ports:
+      - "5051:5000"
+    environment:
+      STUDENT_NAME: Nursultan
+      STUDENT_SURNAME: Dauletkan
+      STUDENT_GROUP: IT2-2313
+      STUDENT_ID: "37037"
+    restart: unless-stopped
