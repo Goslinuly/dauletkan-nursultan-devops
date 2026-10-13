@@ -62,7 +62,7 @@ pipeline {
                     sleep 3
                     docker ps --filter name=$CONTAINER_NAME
                     docker logs $CONTAINER_NAME
-                    docker exec $CONTAINER_NAME wget -qO- http://localhost:5000 | grep "Application is running successfully!"
+                    docker exec $CONTAINER_NAME wget -qO- http://127.0.0.1:5000 | grep "Application is running successfully!"
                 '''
             }
         }
